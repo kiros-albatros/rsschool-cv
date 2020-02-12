@@ -1,0 +1,25 @@
+body {
+    max-width: 1000px;
+    text-align: left;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+h1 {
+    color: #0366d6;
+    text-align: center;
+}
+
+a {
+    font-style: italic;
+}
+
+img {
+    float: left;
+    margin-right: 40px;
+}
+
+.header-wrapper {
+    width: 1000px;
+    display: flex;
+}
