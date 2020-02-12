@@ -25,5 +25,6 @@ as for programming courses:
   * my profile on Stepik (https://stepik.org/users/26094331) 
   * my profile on HTMLAcademy (https://htmlacademy.ru/profile/id253021) 
   * my profile on Sololearn (https://www.sololearn.com/Profile/1675556) 
+  * my profile on Hexlet: (https://ru.hexlet.io/u/user-a18d53d1c41ff973)
 ## Languages ##
 English level B2, German B1.
