@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+            integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="style.css" />
+        <title>cv</title>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/atom-one-dark.min.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
+        <script>
+            hljs.initHighlightingOnLoad();
+        </script>
+    </head>
+
+    <body>
+        <header class="header">
+            <ul class="menu">
+                <li class="menu__item">
+                    <a href="#Summary">Summary</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#Skills">Skills</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#Education">Education</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#Code">Code Example</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#Portfolio">Portfolio</a>
+                </li>
+            </ul>
+            <div class="burger">
+                <img src="img/burger.png" alt="" />
+            </div>
+        </header>
+        <main>
+            <h1>cv</h1>
+            <div class="about-wrapper">
+                <div>
+                    <img src="bwphoto.jpg" alt="my photo" width="200" />
+                </div>
+                <div>
+                    <h2>Kira Penyaeva</h2>
+                    <h3>Contact information:</h3>
+                    <ul class="contacts">
+                        <li>
+                            Email:
+                            <a href="mailto:kirsa.prikolnaja@gmail.com">kirsa.prikolnaja@gmail.com</a>
+                        </li>
+                        <li>
+                            Phone number
+                            <a href="tel:+7(953)950-54-99">+7(953)950-54-99</a>
+                        </li>
+                        <li>
+                            VK
+                            <a href="https://vk.com/id62419193">https://vk.com/id62419193</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <section id="Summary" class="summary">
+                <h3>Summary</h3>
+                <p>
+                    I am a former teacher of English and German languages by
+                    profession, but two years ago I have decided to become a
+                    web-developer.
+                </p>
+                <p>
+                    I learned web-development by myself and was lucky to find rs
+                    school course. It boosted my skills, though I have not
+                    finished it, but several months later I got job-offer as a
+                    full stack developer. Now I would like to dive into
+                    front-end development.
+                </p>
+            </section>
+
+            <section id="Skills" class="skills">
+                <h3>My skills:</h3>
+                <ul class="skills__list">
+                    <li class="skill">
+                        <span class="skill__icon html"></span>HTML
+                    </li>
+                    <li class="skill">
+                        <span class="skill__icon css"></span>CSS
+                    </li>
+                    <li class="skill">
+                        <span class="skill__icon sass"></span>SASS (SCSS)
+                    </li>
+                    <li class="skill">
+                        <span class="skill__icon js"></span>Vanilla Javascript
+                    </li>
+                    <li class="skill">
+                        <span class="skill__icon gith"></span>GitHub
+                    </li>
+                    <li class="skill">
+                        <span class="skill__icon figma"></span>Figma
+                    </li>
+                    <li class="skill">
+                        <span class="skill__icon photoshop"></span>Adobe
+                        Photoshop
+                    </li>
+                    <li class="skill">
+                        <span class="skill__icon gulp"></span>Gulp
+                    </li>
+                </ul>
+            </section>
+
+            <section id="Education" class="education">
+                <h3>Education</h3>
+                I have finished Gorlovka State Pedagogical Institute for Foreign
+                Languages, Donetsk region, Ukraine, as for programming courses:
+
+                <ul class="courses">
+                    <li>
+                        <a href="https://stepik.org/users/26094331">my profile on Stepik
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://htmlacademy.ru/profile/id253021">
+                            my profile on HTMLAcademy
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.sololearn.com/Profile/1675556">
+                            my profile on Sololearn
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://ru.hexlet.io/u/user-a18d53d1c41ff973">my profile on Hexlet
+                        </a>
+                    </li>
+                </ul>
+            </section>
+
+            <section id="Code" class="code">
+                <h3>Code example</h3>
+                <pre>
+                <code class="language-javascript">
+                function nicknameGenerator(name){
+                if(name.length&lt;4) {
+                  return 'Error: Name too short';
+                }
+                let vowels = new RegExp ('[aeiou]');
+                if(vowels.test(name[2])) {
+                  return (name.slice(0, 4))
+                } else {
+                   return (name.slice(0, 3))
+                }
+              }
+            </code>
+        </pre>
+            </section>
+
+            <h3>Languages</h3>
+            English level B2, German B1.
+
+            <h3 id="Portfolio">Portfolio</h3>
+            <a href="https://kiros-albatros.github.io/porfolio/">My portfolio</a>
+
+            <h3>Works</h3>
+            <div class="works">
+                <div class="column-item">
+                    <a href="https://kiros-albatros.github.io/floristika/" target="blank" class="column-image">
+                        <img src="img/floristika.jpg" alt="" />
+                    </a>
+                    <span class="column-description">Floristika: Html5, Scss, Gulp, Js. Web-site with sliders</span>
+                </div>
+
+                <div class="column-item">
+                    <a href="https://kiros-albatros.github.io/cat-energy/" target="blank" class="column-image">
+                        <img src="img/catE.jpg" alt="" />
+                    </a>
+                    <span class="column-description">Cat Energy: Html5, Scss, Js. Adaptive web-site </span>
+                </div>
+
+                <div class="column-item">
+                    <a href="https://kiros-albatros.github.io/cat-hotel/" target="blank" class="column-image">
+                        <img src="img/hotel.jpg" alt="" />
+                    </a>
+                    <span class="column-description">Hotel for Cats: : Html5, Scss, Gulp, Js, AJAX. Web-site with
+                        filter.</span>
+                </div>
+
+                <div class="column-item">
+                    <a class="column-image" target="blank" href="https://kiros-albatros.github.io/singolo/">
+                        <img src="img/singolo.png" alt="" />
+                    </a>
+                    <span class="column-description">Singolo: Html5, Scss, Gulp, Js. Task from RSS course</span>
+                </div>
+
+                <div class="column-item">
+                    <a class="column-image" href="https://kiros-albatros.github.io/PUBG/" target="blank">
+                        <img src="img/pubg.jpg" alt="" />
+                    </a>
+                    <span class="column-description">PUBG: Html5, Scss, Gulp, Js. Landing page with audio</span>
+                </div>
+
+                <div class="column-item">
+                    <a class="column-image" href="https://kiros-albatros.github.io/english-for-kids/" target="blank">
+                        <img src="img/engForKids.jpg" alt="" />
+                    </a>
+                    <span class="column-description">English for kids: Html5, Css, Js. SPA</span>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="footer__list">
+                <a class="footer__item" href="https://github.com/kiros-albatros">
+                    <img src="./img/github.png" alt="github" /></a>
+
+                <a class="year footer__item"
+                    href="https://ru.wikipedia.org/wiki/2021_%D0%B3%D0%BE%D0%B4#:~:text=2021%20(%D0%B4%D0%B2%D0%B5%20%D1%82%D1%8B%D1%81%D1%8F%D1%87%D0%B8%20%D0%B4%D0%B2%D0%B0%D0%B4%D1%86%D0%B0%D1%82%D1%8C%20%D0%BF%D0%B5%D1%80%D0%B2%D1%8B%D0%B9,%D0%B9%20%D0%B3%D0%BE%D0%B4%202020%2D%D1%85%20%D0%B3%D0%BE%D0%B4%D0%BE%D0%B2.">2022</a>
+
+                <a class="footer__item" href="https://rs.school/js/">
+                    <img src="./img/rs_school_js.svg" alt="github" /></a>
+            </div>
+        </footer>
+        <script src="./script.js"></script>
+    </body>
+
+</html>
